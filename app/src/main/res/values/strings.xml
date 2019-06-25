@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Connect 3</string>
+    <string name="board_for_the_game">Board for the game</string>
+    <string name="x1">X1</string>
+    <string name="x2">x2</string>
+    <string name="x3">x3</string>
+    <string name="x4">x4</string>
+    <string name="x5">x5</string>
+    <string name="x6">x6</string>
+    <string name="x7">x7</string>
+    <string name="x8">x8</string>
+    <string name="x9">x9</string>
+    <string name="imagebuttonplay">imagebuttonplay</string>
+    <string name="blue_team_wins">blue team wins</string>
+    <string name="imageviewbluewins">imageViewBlueWins</string>
+    <string name="redteamwon">redteamwon</string>
+    <string name="player_os_turn">player os turn</string>
+    <string name="button_to_play_again">button to play again</string>
+    <string name="the_game_is_a_tie">the game is a tie</string>
+    <string name="it_is_play_twos_turn">it is play twos turn</string>
+</resources>

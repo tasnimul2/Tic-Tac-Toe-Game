@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="395dp"
+        android:layout_height="395dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/board"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3">
+
+
+        <ImageView
+            android:id="@+id/x1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x1"
+            android:onClick="DropIn"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/x2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x2"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:onClick="DropIn"
+            android:tag="1"/>
+
+        <ImageView
+            android:id="@+id/x3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x3"
+            app:layout_column="2"
+            app:layout_row="0"
+            android:onClick="DropIn"
+            android:tag="2"/>
+
+        <ImageView
+            android:id="@+id/x4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x4"
+            app:layout_column="0"
+            app:layout_row="1"
+            android:onClick="DropIn"
+            android:tag="3"/>
+
+        <ImageView
+            android:id="@+id/x5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x5"
+            app:layout_column="1"
+            app:layout_row="1"
+            android:onClick="DropIn"
+            android:tag="4"/>
+
+        <ImageView
+            android:id="@+id/x6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x6"
+            app:layout_column="2"
+            app:layout_row="1"
+            android:onClick="DropIn"
+            android:tag="5"/>
+
+        <ImageView
+            android:id="@+id/x7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x7"
+            app:layout_column="0"
+            app:layout_row="2"
+            android:onClick="DropIn"
+            android:tag="6"/>
+
+        <ImageView
+            android:id="@+id/x8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x8"
+            app:layout_column="1"
+            app:layout_row="2"
+            android:onClick="DropIn"
+            android:tag="7"/>
+
+        <ImageView
+            android:id="@+id/x9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:contentDescription="@string/x9"
+            android:onClick="DropIn"
+            app:layout_column="2"
+            app:layout_row="2"
+            android:tag="8"/>
+
+
+
+
+
+    </android.support.v7.widget.GridLayout>
+
+    <ImageView
+        android:id="@+id/blueWinsImageView"
+        android:layout_width="305dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/imageviewbluewins"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bluewins" />
+
+    <ImageView
+        android:id="@+id/redWinsImageView"
+        android:layout_width="287dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/redteamwon"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/blueWinsImageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/redwins" />
+
+    <ImageButton
+        android:id="@+id/playAgainImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/button_to_play_again"
+        android:onClick="restartGame"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:srcCompat="@drawable/playagainwoeffects" />
+
+    <ImageView
+        android:id="@+id/tieImageView"
+        android:layout_width="128dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/the_game_is_a_tie"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tie" />
+
+    <ImageView
+        android:id="@+id/player1turn"
+        android:layout_width="289dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="452dp"
+        android:contentDescription="@string/player_os_turn"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/playeroturn" />
+
+    <ImageView
+        android:id="@+id/player2turn"
+        android:layout_width="265dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/it_is_play_twos_turn"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/player1turn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/playerxturn" />
+
+</android.support.constraint.ConstraintLayout>
