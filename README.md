@@ -12,4 +12,4 @@ Tic Tac Toe app created to practice app making
 8.  using animations in app.
 
 ### Game sample :
-![](https://im.ezgif.com/tmp/ezgif-1-bb89f9635268.gif)
+![](https://media.giphy.com/media/l1m9iB6odMGXxQSm33/giphy.gif)
