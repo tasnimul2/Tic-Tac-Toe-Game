@@ -1,6 +1,7 @@
 # :video_game: :x: Tic Tac Toe App :o: :video_game:  
 Tic Tac Toe app created to practice app making
 
+### [SOURCE CODE](https://github.com/mohammed1478/Tic-Tac-Toe-Game/tree/master/app/src/main/java/com/example/connect3)
 ### What I learned:
 1.  use of  the legacy tool "grid layout" on android studio
 2.  adding images to the grid layout
