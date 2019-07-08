@@ -2,6 +2,9 @@
 Tic Tac Toe app created to practice app making
 
 ### [SOURCE CODE](https://github.com/mohammed1478/Tic-Tac-Toe-Game/tree/master/app/src/main/java/com/example/connect3)
+
+### [DOWNLOAD APP](https://github.com/mohammed1478/Tic-Tac-Toe-Game/blob/master/app/release/app-release.apk)
+
 ### What I learned:
 1.  use of  the legacy tool "grid layout" on android studio
 2.  adding images to the grid layout
