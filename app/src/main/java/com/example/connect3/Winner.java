@@ -1,5 +1,5 @@
 package com.example.connect3;
-
+//class that checks the requirements for player 1 or player 2 to win
 public class Winner  {
     private int[] a;
 
