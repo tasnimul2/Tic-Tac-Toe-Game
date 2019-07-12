@@ -1,5 +1,5 @@
 # :video_game: :x: Tic Tac Toe App :o: :video_game:  
-Tic Tac Toe app created to practice app making
+Tic Tac Toe app for two players where the game can be replayed infinite amount of times. 
 
 ### [SOURCE CODE](https://github.com/mohammed1478/Tic-Tac-Toe-Game/tree/master/app/src/main/java/com/example/connect3)
 
