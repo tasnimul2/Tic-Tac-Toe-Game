@@ -3,7 +3,7 @@ Tic Tac Toe app for two players where the game can be replayed infinite amount o
 
 ### [SOURCE CODE](https://github.com/mohammed1478/Tic-Tac-Toe-Game/tree/master/app/src/main/java/com/example/connect3)
 
-### [DOWNLOAD APP(Android Only)](https://github.com/mohammed1478/Tic-Tac-Toe-Game/blob/master/app/release/app-release.apk)
+### [DOWNLOAD APP (Android Only)](https://github.com/mohammed1478/Tic-Tac-Toe-Game/blob/master/app/release/app-release.apk)
 
 ### What I learned:
 1.  use of  the legacy tool "grid layout" on android studio
